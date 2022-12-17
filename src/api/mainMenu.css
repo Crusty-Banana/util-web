@@ -1,9 +1,9 @@
 .main-menu {
-    background-image: url("../resource/main-menu-background1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-image: url("../resource/main-menu-background1.png");
+    background-size: 150%; */
     text-align: center;
-    /* background-color: #282c34; */
+    margin: 0;
+    background-color: #1A1919;
 }
 
 .App {

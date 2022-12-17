@@ -1,0 +1,45 @@
+.avt-container {
+    height: 6vh;
+    width: 6vh;
+    border: 0.5vh #FFFFFF solid;
+    border-radius: 200px;
+    background-image: url('../resource/avatar1.png');
+    background-size: cover;
+    margin-right: 1vw;
+}
+.top-bar {
+    height: 8vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1A1919;
+    color: #FFFFFF;
+}
+
+.greeting-container {
+    font-size: 1vh;
+    padding-left: 0.5%;
+    margin: 0;
+}
+.bold {
+    font-weight: 900;
+}
+.thin {
+    font-weight: 600;
+}
+.zero-margin {
+    margin: 0;
+}
+
+.top-greeting {
+    text-align: left;
+    padding: 0.1vw 1vw;
+    width: 200%;
+}
+.bot-greeting {
+    text-align: left;
+    padding: 0.1vw 1vw;
+    width: 200%;
+}

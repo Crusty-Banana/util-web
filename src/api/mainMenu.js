@@ -1,25 +1,18 @@
-import './mainMenu.css';
+import './MainMenu.css';
 import logo from '../logo.svg';
+import TopBar from '../components/TopBar.js';
+import ButtonsBox from '../components/ButtonsBox.js';
 
-function mainMenu() {
-  return (
-    <div className="main-menu">
-        <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-            Learn React
-            </a>
-        </header>
-    </div>
-  );
+function MainMenu() {
+    return (
+        <div className="main-menu">
+            <TopBar />
+            <ButtonsBox />
+            <header className="App-header">
+
+            </header>
+        </div>
+    );
 }
 
-export default mainMenu;
+export default MainMenu;
