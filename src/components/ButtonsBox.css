@@ -4,12 +4,28 @@
     justify-content: center;
 }
 
+.type-one-button:hover {
+    background-color: #302f2f;
+}
+.type-one-button:active {
+    font-size: 80%;
+}
+
 .type-one-button {
-    margin: 0 1vw;
+    min-height: 55px;
+    min-width: 55px;
+    font-size: 90%;
+    margin: 0 5px;
+    padding: 0.2vw;
     width: 6vh;
     height: 6vh;
     background-color: #242424;
     color: #FFFFFF;
     border: 0;
     border-radius: 10px;
-}   
+    text-align: center;
+}  
+
+.bigger-font {
+    font-size: 120%;
+}
